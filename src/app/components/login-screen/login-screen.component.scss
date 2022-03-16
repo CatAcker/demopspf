@@ -16,34 +16,34 @@
     left: 150px;
     height:50%;
 }
-
 .labelHeading{
     color: #b98033 ;
     text-shadow: 2px 2px 3px black;
     position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 5vmax;
     font-weight: 700;
     left: 50%;
     top: 35%;
 }
 .inputEmp{
     position: absolute;
-    top:20%;
+    top:22%;
     left: 50%;
     text-align: center;
     border-top: none;
     border-left: none;
     border-right: none; 
-    font-size:22px;
+    font-size:3.1vmax;
     font-weight:bold;
     background: none; 
     border-color: #dfaf72; 
     box-shadow: 0 0 10px #dfaf72;
     pointer-events: none;
     color:#a2641d;
-    width:450px; 
+    width:47vw; 
     height:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 input:focus { 
     outline: none !important;
@@ -54,4 +54,8 @@ textarea:focus {
     outline: none !important;
     border-color: #dfaf72;
     box-shadow: 0 0 10px #dfaf72;
+}
+
+#div{
+    display: block;
 }
