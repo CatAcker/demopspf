@@ -12,7 +12,46 @@
 }
 .fixleft{
     position: absolute;
-    bottom:30%;
+    bottom:32%;
     left: 150px;
     height:50%;
+}
+
+.labelHeading{
+    color: #b98033 ;
+    text-shadow: 2px 2px 3px black;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 700;
+    left: 50%;
+    top: 35%;
+}
+.inputEmp{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    font-size:22px;
+    font-weight:bold;
+    background: none; 
+    border-color: #dfaf72; 
+    box-shadow: 0 0 10px #dfaf72;
+    pointer-events: none;
+    color:#a2641d;
+    width:425px; 
+    height:40px;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #dfaf72;
+    box-shadow: 0 0 10px #dfaf72;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #dfaf72;
+    box-shadow: 0 0 10px #dfaf72;
 }
