@@ -16,3 +16,33 @@
     left: 150px;
     height:50%;
 }
+.backimg{
+    position: absolute;
+    left: 1.5vmax;
+    bottom: 3vmax;
+    height: 3vmax
+}
+
+button{
+    position: relative;
+    top:30vh;
+    left: 50vw;
+    width: 30vmax;
+    height: 15vmax;
+    border: none;
+    background-color: #fed37c;
+    color: #845b2c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 4vmin;
+    font-weight: 700;
+    border-radius: 20px;
+    // box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
+    box-shadow: 10px 10px 2px #51371a;
+}
+
+button:hover{
+    box-shadow: none;
+    background-color: #845b2c;
+    color: #fed37c;
+}
