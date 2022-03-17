@@ -59,3 +59,38 @@ textarea:focus {
 #div{
     display: block;
 }
+
+.authImgCard, .authImgFinger{
+    position: absolute;
+    bottom: 2vmax;
+}
+.authImgCard{
+    right: 20vmax;
+    width: 10vmax;
+}
+
+.authImgFinger{
+    right: 5vmax;
+    width: 4.2vmax;
+}
+
+.arrow{
+    position: absolute;
+    right: 11.5vmax;
+    bottom: 3vmax;
+    width: 6vmax;
+}
+
+.label1, .label2{
+    position: absolute;
+    left: 10vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vmin;
+    font-weight: 700;
+}
+.label1{
+    bottom: 6vmax;
+}
+.label2{
+    bottom: 3vmax;
+}
