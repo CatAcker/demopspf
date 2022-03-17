@@ -1,0 +1,18 @@
+.fixbottom{
+    position: fixed;
+    bottom: 0;
+    height: 25vh;
+    width: 100vw;
+}
+.fixtop{
+    position: fixed;
+    top: 0;
+    height: 40vh;
+    width: 100vw;
+}
+.fixleft{
+    position: absolute;
+    bottom:32%;
+    left: 150px;
+    height:50%;
+}
