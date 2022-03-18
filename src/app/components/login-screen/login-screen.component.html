@@ -18,7 +18,13 @@
         <label class="labelHeading" routerLink="/home-screen">Beneficiary Number:</label>
     </div>
     <div >
-        <input class="inputEmp" id="userNumber" type="text" value="..." style="margin-top: 200px;">
+        <input 
+            class="inputEmp" 
+            id="userNumber" 
+            type="text" 
+            style="margin-top: 200px;"
+            [(ngModel)]="benNumber"
+        >
     </div>
     
 </div>
