@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-screen.component.scss']
 })
 export class LoginScreenComponent implements OnInit {
+  benNumber = '';
 
   constructor() { }
 
