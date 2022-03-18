@@ -8,9 +8,15 @@
             [ngStyle]="{'background-color': benNumber == '' ? 'rgba(113,94,55,0.5)' : 'rgb(216,180,106)'}" 
             class="authImgCard" 
             src="\assets\images\cardReader.png" 
-            alt="cardReader">
+            alt="cardReader"
+        >
         <img class="arrow" src="\assets\images\ForewardIcon.png" alt="cardReader">
-        <img class="authImgFinger" src="\assets\images\fingerPrint.png" alt="fingerPrint">
+        <img 
+            [ngStyle]="{'background-color': benNumber != '' ? 'rgba(113,94,55,0.5)' : 'rgb(216,180,106)'}" 
+            class="authImgFinger" 
+            src="\assets\images\fingerPrint.png" 
+            alt="fingerPrint"
+        >
         <label class="label1">Step 1: Scan Beneficiary Card</label>
         <label class="label2">Step 2: Put Down Fingerprint</label>
     </div>
