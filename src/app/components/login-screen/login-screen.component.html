@@ -12,7 +12,7 @@
         >
         <img class="arrow" src="\assets\images\ForewardIcon.png" alt="cardReader">
         <img 
-            [ngStyle]="{'background-color': benNumber != '' ? 'rgba(113,94,55,0.5)' : 'rgb(216,180,106)'}" 
+            id="imgFinger"
             class="authImgFinger" 
             src="\assets\images\fingerPrint.png" 
             alt="fingerPrint"
@@ -36,5 +36,6 @@
             [(ngModel)]="benNumber"
         >
     </div>
+    <!-- [ngStyle]="{'background-color': benNumber != '' ? 'rgba(113,94,55,0.5)' : 'rgb(216,180,106)'}"  -->
     
 </div>
